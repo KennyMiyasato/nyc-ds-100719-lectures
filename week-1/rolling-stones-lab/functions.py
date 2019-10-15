@@ -24,7 +24,7 @@ def findByRank(rank):
     for song in songs:
         if song['number'] == rank:
             return song
-    return []
+    return {}
 
 def findByYear(year):
     albums = []
